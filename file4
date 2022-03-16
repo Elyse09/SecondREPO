@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Hello! WHat is your name" 
+read name
+
+echo "Thank you $name "
+echo "Can you ping the ip of centosstation?"
+read x
+echo " ok alright let me help you"
+ping centosstation
